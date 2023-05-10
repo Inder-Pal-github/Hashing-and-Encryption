@@ -1,23 +1,23 @@
 // Using bcrypt library
 
-// const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt");
 
-// const password = "my-password-to-gmail"
+const password = "my-password-to-gmail"
 
-// const hashedPassword = bcrypt.hashSync(password,10);
-// // every hash generate is always unique => same data to same hash value
+const hashedPassword = bcrypt.hashSync(password,10);
+// every hash generate is always unique => same data to same hash value
 
-// console.log("Your hashed password:  ",hashedPassword);
+console.log("Your hashed password:  ",hashedPassword);
 
-// const passwordByUser = "my-password-to-facebook";
+const passwordByUser = "my-password-to-facebook";
 
-// const checkPassword = bcrypt.compareSync(passwordByUser,hashedPassword);
+const checkPassword = bcrypt.compareSync(passwordByUser,hashedPassword);
 
-// console.log(checkPassword?"Password is correct":"Password is incorrect");
+console.log(checkPassword?"Password is correct":"Password is incorrect");
 
 
 
-// /// Using crypto module
+/// Using crypto module
 
 const crypto = require("crypto");
 
