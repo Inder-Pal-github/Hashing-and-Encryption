@@ -41,11 +41,13 @@
     - Encryption is the process of encoding simple text and other information that can be accessed by the sole authorized entity if it has a decryption key. It will protect your sensitive data from being accessed by cybercriminals. It is the most effective way of achieving [data security](https://www.ssl2buy.com/wiki/transmit-data-securely-with-ssl-encryption/) in modern communication systems. In order for the receiver to read an encrypted message, he/she should have a password or a security key that is used in decryption. Data that has not been encrypted is known as plain text while encrypting data is known as a cipher text.  There are a number of encryption systems, where an asymmetric encryption is also known as public-key encryption, symmetric encryption and hybrid encryption are the most common.
     - **[Symmetric encryption](https://www.notion.so/Hashing-vs-Encryption-503773a8935544b28175939caf13914e) –** Uses the same secret key to encrypt and decrypt the message. The secret key can be a word, a number or a string of random letters. Both the sender and the receiver should have the key. It is the oldest technique of encryption.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cca3758f-68b4-4b31-886d-ce9b9158a15c/Untitled.png)
+        ![image](https://github.com/Inder-Pal-github/Hashing-and-Encryption/assets/101566674/fa1a8665-2633-449e-8df2-e485b059cfba)
+
         
     - **Asymmetric encryption –** It deploys two keys, [a public key known by everyone and a private key known only by the receiver](https://www.notion.so/Hashing-vs-Encryption-503773a8935544b28175939caf13914e). The public key is used to encrypt the message and a private key is used to decrypt it. Asymmetric encryption is little slower than symmetric encryption and consumes more processing power when encrypting data.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80e94d20-0144-4f22-9259-8d319cd99ee9/Untitled.png)
+    ![image](https://github.com/Inder-Pal-github/Hashing-and-Encryption/assets/101566674/cf90d4b9-bacc-4eb1-aa4e-f105f385e61b)
+
         
     
     - **Hybrid encryption –** It is a process of encryption that blends both symmetric and asymmetric encryption. It takes advantage of the strengths of the two encryptions and minimizes their weakness.
@@ -140,7 +142,7 @@
         
         In hashing, keys are not used but keys are used to encrypt information in encryption. Only public keys are used for symmetric encryption. Both public and private keys are utilised in asymmetric encryption.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c4258d2-0ce4-4d7d-8a89-aa7bf88834f6/Untitled.png)
+        ![image](https://github.com/Inder-Pal-github/Hashing-and-Encryption/assets/101566674/1fb8c902-9fef-4444-aac7-c184599a99ca)
         
     
     While both hashing and encryption are methods of data security, they serve different purposes. Hashing is used to ensure data integrity and password storage, while encryption is used to protect data confidentiality. It's important to understand the differences between these two methods so that you can choose the right one for your specific security needs.
